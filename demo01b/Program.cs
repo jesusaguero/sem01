@@ -31,9 +31,14 @@ namespace demo01b
             Estudiante estudiante = new Estudiante
             {
                 Nombres = "Jesus",
-                Apellidos = "Santivañez",
+                Apellidos = "Agüero",
                 Nota = 20
             };
+
+            
+            Triangulo triangulo = new Triangulo(0, 2, 3, 4, 3, 5);
+            Console.WriteLine("Perímetro: " + triangulo.CalcularPerimetro());
+            Console.WriteLine("Área: " + triangulo.CalcularArea());
 
 
             Console.WriteLine(triangle.CalcularArea());
