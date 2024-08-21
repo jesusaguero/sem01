@@ -28,6 +28,13 @@ namespace demo01b
             triangle.Base = 2;
             triangle.CalcularArea();
 
+            Estudiante estudiante = new Estudiante
+            {
+                Nombres = "Jesus",
+                Apellidos = "Santivañez",
+                Nota = 20
+            };
+
 
             Console.WriteLine(triangle.CalcularArea());
             Console.WriteLine(persona.NombresCompletos);
